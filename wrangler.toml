@@ -1,0 +1,4 @@
+name = "joey"  # 替换为您的 Worker 名称
+main = "_worker.js"        # 指定入口文件
+compatibility_date = "2025-10-20"  # 当前日期或最新兼容日期
+no_bundle = true           # 跳过默认捆绑/构建（适用于单文件）
