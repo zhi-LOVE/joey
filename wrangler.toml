@@ -2,8 +2,3 @@ name = "joey"  # 替换为您的 Worker 名称
 main = "_worker.js"        # 指定入口文件
 compatibility_date = "2025-10-20"  # 当前日期或最新兼容日期
 no_bundle = true           # 跳过默认捆绑/构建（适用于单文件）
-name = "your-project"
-compatibility_date = "2024-10-27"  # 使用最新兼容日期
-
-[[pages_build_output_dir]]
-pages_build_output_dir = "./dist"  # 或你的输出目录，如果没有构建步骤，指向 _worker.js 所在文件夹
